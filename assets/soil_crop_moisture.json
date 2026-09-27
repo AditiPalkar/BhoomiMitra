@@ -1,0 +1,106 @@
+{
+  "soils": {
+    "BLACK": {
+      "adjustment": -2,
+      "crops": {
+        "WHEAT": 55,
+        "RICE": 65,
+        "MAIZE": 55,
+        "JOWAR": 45,
+        "BAJRA": 40,
+        "COTTON": 45,
+        "SUGARCANE": 70,
+        "SOYBEAN": 50,
+        "TUR": 40,
+        "GRAM": 40,
+        "GREEN_GRAM": 45,
+        "BLACK_GRAM": 45,
+        "GROUNDNUT": 45,
+        "SUNFLOWER": 45,
+        "SESAME": 40,
+        "SAFFLOWER": 40,
+        "BANANA": 70,
+        "MANGO": 40,
+        "POMEGRANATE": 45,
+        "PAPAYA": 60,
+        "ORANGE": 50,
+        "GUAVA": 50
+      }
+    },
+
+    "LOAMY": {
+      "adjustment": 0,
+      "crops": {
+        "WHEAT": 55,
+        "RICE": 65,
+        "MAIZE": 55,
+        "SUGARCANE": 70,
+        "SOYBEAN": 50,
+        "GROUNDNUT": 45,
+        "TOMATO": 60,
+        "ONION": 55,
+        "POTATO": 60,
+        "CHILLI": 55,
+        "BRINJAL": 60,
+        "OKRA": 55,
+        "CABBAGE": 65,
+        "CAULIFLOWER": 65,
+        "CUCUMBER": 55,
+        "PEAS": 55,
+        "BEANS": 55,
+        "BANANA": 70,
+        "MANGO": 40,
+        "GRAPES": 50,
+        "PAPAYA": 60,
+        "GUAVA": 50,
+        "SAPOTA": 50
+      }
+    },
+
+    "SANDY": {
+      "adjustment": 3,
+      "crops": {
+        "BAJRA": 40,
+        "MAIZE": 55,
+        "GROUNDNUT": 45,
+        "SESAME": 40,
+        "ONION": 55,
+        "TOMATO": 60,
+        "CHILLI": 55,
+        "CUCUMBER": 55,
+        "WATERMELON": 45,
+        "MUSKMELON": 45,
+        "PUMPKIN": 55,
+        "BOTTLE_GOURD": 55,
+        "RIDGE_GOURD": 55,
+        "CASHEW": 45,
+        "COCONUT": 65
+      }
+    },
+
+    "RED": {
+      "adjustment": 1,
+      "crops": {
+        "RICE": 65,
+        "MAIZE": 55,
+        "JOWAR": 45,
+        "BAJRA": 40,
+        "RAGI": 45,
+        "TUR": 40,
+        "GROUNDNUT": 45,
+        "SUNFLOWER": 45,
+        "TOMATO": 60,
+        "ONION": 55,
+        "CHILLI": 55,
+        "BRINJAL": 60,
+        "OKRA": 55,
+        "BEANS": 55,
+        "BANANA": 70,
+        "MANGO": 40,
+        "CASHEW": 45,
+        "PAPAYA": 60,
+        "GUAVA": 50
+      }
+    }
+  }
+}
