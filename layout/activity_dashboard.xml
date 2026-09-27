@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F5"
+    android:fitsSystemWindows="true"
+    tools:context=".Dashboard">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav">
+
+        <ScrollView
+            android:id="@+id/dashboard_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_nav"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="6dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="6dp"
+                        android:paddingStart="16dp"
+                        android:background="@drawable/bg_dashboard_name">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:backgroundTintMode="src_over" />
+
+                        <TextView
+                            android:id="@+id/greetingSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hello"
+                            android:textColor="#E6F8EA"
+                            android:textSize="14sp"
+                            android:layout_marginTop="8dp"/>
+
+                        <TextView
+                            android:id="@+id/userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/placeholder_name"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp"
+                            android:layout_below="@id/greetingSmall"
+                            android:layout_marginTop="6dp"/>
+
+                        <TextView
+                            android:id="@+id/subText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/farm_status_msg"
+                            android:textColor="#DFF6E6"
+                            android:textSize="13sp"
+                            android:layout_below="@id/userName"
+                            android:layout_marginTop="6dp"/>
+
+                        <ImageButton
+                            android:id="@+id/profile_btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/ic_farmer"
+                            android:backgroundTint="@color/white"
+                            android:contentDescription="Profile button"
+                            android:scaleType="centerInside"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/weather_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:cardElevation="2dp"
+                    android:layout_marginBottom="12dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp"
+                        android:background="@drawable/bg_dashboard_weather">
+
+                        <LinearLayout
+                            android:id="@+id/leftColumn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/weatherStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/weather_condition_example"
+                                android:textColor="#FFFFFF"
+                                android:textSize="14sp"/>
+
+                            <TextView
+                                android:id="@+id/temperature"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/temp_example"
+                                android:textColor="#FFFFFF"
+                                android:textSize="34sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="8dp"/>
+
+                            <TextView
+                                android:id="@+id/feelsLike"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/feels_like_example"
+                                android:textColor="#DDEFF7"
+                                android:textSize="12sp"
+                                android:layout_marginTop="6dp"/>
+
+                            <TextView
+                                android:id="@+id/tvLastUpdated"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/last_updated_placeholder"
+                                android:textSize="11sp"
+                                android:textColor="#DDEFF7"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginTop="4dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rightColumn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="end">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="end"
+                                android:layout_marginBottom="8dp">
+
+                                <TextView
+                                    android:id="@+id/humidityLabel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/label_humidity"
+                                    android:textSize="12sp"
+                                    android:textColor="#DDEFF7"
+                                    android:layout_marginEnd="6dp"/>
+
+                                <TextView
+                                    android:id="@+id/humidity"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/val_humidity"
+                                    android:textSize="14sp"
+                                    android:textColor="#FFFFFF"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="end">
+
+                                <TextView
+                                    android:id="@+id/windLabel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/label_wind"
+                                    android:textSize="12sp"
+                                    android:textColor="#DDEFF7"
+                                    android:layout_marginEnd="6dp"/>
+
+                                <TextView
+                                    android:id="@+id/windSpeed"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/val_wind"
+                                    android:textSize="14sp"
+                                    android:textColor="#FFFFFF"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toStartOf="@id/rightColumn"
+                            android:layout_marginEnd="12dp"
+                            android:background="#33FFFFFF"/>
+
+                        <TextView
+                            android:id="@+id/tvForecastSummary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Forecast loading..."
+                            android:textColor="#DDEFF7"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:visibility="gone"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="4dp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        android:layout_marginEnd="8dp"
+                        app:strokeColor="#A5D6A7"
+                        app:strokeWidth="1dp"
+                        app:cardBackgroundColor="#FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/label_soil_moisture"
+                                android:textSize="13sp"
+                                android:textColor="#2E7D32"/>
+
+                            <TextView
+                                android:id="@+id/tvSoilMoistureValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/val_soil_moisture"
+                                android:textSize="26sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="6dp"
+                                android:textColor="#2E7D32"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="8dp"
+                                android:layout_marginTop="10dp"
+                                android:background="#E8F7EE" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/label_optimal"
+                                android:textSize="12sp"
+                                android:layout_marginTop="8dp"
+                                android:textColor="#8FC9A0"/>
+
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/irrigation_card"
+                        android:layout_width="0dp"
+                        android:layout_height="125dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        android:layout_marginStart="8dp"
+                        app:strokeColor="#A5D6A7"
+                        app:strokeWidth="1dp"
+                        app:cardBackgroundColor="#FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/label_irrigation"
+                                android:textSize="13sp"
+                                android:textColor="#4A90E2"/>
+
+                            <TextView
+                                android:id="@+id/tvIrrigationStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/label_active"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="6dp"
+                                android:textColor="#111111"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/label_auto_mode_on"
+                                android:textSize="12sp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#7F8C8D"/>
+
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/disease_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="12dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="12dp"
+                        android:background="@drawable/bg_dashboard_disease">
+
+                        <TextView
+                            android:id="@+id/detect"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ai_crop_disease"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#2E2E2E"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dash_detect_sub"
+                            android:layout_below="@id/detect"
+                            android:layout_marginTop="6dp"
+                            android:textSize="12sp"
+                            android:textColor="#2E2E2E"/>
+
+                        <View
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/camera" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="12dp"
+                            android:paddingTop="10dp"
+                            android:text="@string/label_quick_access"
+                            android:textSize="16sp"
+                            android:textColor="#2E7D32"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:padding="3dp">
+
+                            <LinearLayout
+                                android:id="@+id/cropdiary"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp"
+                                android:layout_marginEnd="8dp">
+
+                                <View
+                                    android:layout_width="33dp"
+                                    android:layout_height="33dp"
+                                    android:background="@drawable/ic_diary"
+                                    android:textSize="22sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/diary"
+                                    android:textSize="14sp"
+                                    android:layout_marginTop="3dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/community"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp"
+                                android:layout_marginEnd="8dp">
+
+                                <View
+                                    android:layout_width="33dp"
+                                    android:layout_height="33dp"
+                                    android:background="@drawable/ic_community"
+                                    android:textSize="22sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/label_community"
+                                    android:textSize="14sp"
+                                    android:layout_marginTop="3dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/schemes"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="10dp"
+                                android:layout_marginEnd="8dp">
+
+                                <View
+                                    android:layout_width="33dp"
+                                    android:layout_height="33dp"
+                                    android:background="@drawable/ic_scheme"
+                                    android:textSize="22sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/label_schemes"
+                                    android:textSize="14sp"
+                                    android:layout_marginTop="3dp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_offline_library"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="4dp"
+                    android:padding="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="80dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:paddingTop="5dp"
+                            android:paddingStart="-15dp"
+                            android:layout_marginBottom="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="📚"
+                                android:paddingStart="10dp"
+                                android:textSize="30sp"
+                                android:layout_marginEnd="12dp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/offline_library"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="#2E7D32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="›"
+                                android:textSize="26sp"
+                                android:textColor="#888888"
+                                android:paddingEnd="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/offline_desc"
+                            android:textSize="14sp"
+                            android:textColor="#555555"
+                            android:layout_marginBottom="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🎥 Offline Videos on Farming"
+                            android:textSize="14sp"
+                            android:textColor="#333333"
+                            android:layout_marginBottom="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="📄 PDF Guides and Crop Manuals"
+                            android:textSize="14sp"
+                            android:textColor="#333333"
+                            android:layout_marginBottom="6dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/offline_tap_hint"
+                            android:textSize="13sp"
+                            android:textColor="#2E7D32"
+                            android:textStyle="italic"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav"
+        android:visibility="gone" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="#000000"
+        app:itemIconSize="24dp"
+        app:menu="@menu/bottom_menu"
+        app:labelVisibilityMode="labeled" />
+</RelativeLayout>
