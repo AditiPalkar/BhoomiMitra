@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App / General -->
+    <string name="app_name">Bhoomi Mitra</string>
+    <string name="hello">Hello</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="change_language">Change Language</string>
+
+    <!-- Crop Diary & Expense -->
+    <string name="crop_diary_and_expenses">Crop Diary And Expenses</string>
+    <string name="track_farm_activities">Track your farm activities and spending</string>
+    <string name="diary">Diary</string>
+    <string name="expenses">Expenses</string>
+    <string name="today_entries">Today’s Entries: %1$d</string>
+    <string name="total_this_month">Total this month: ₹%1$d</string>
+    <string name="add_entry">Add entry</string>
+
+    <!-- Add Diary -->
+    <string name="add_diary_entry">Add Diary Entry</string>
+    <string name="date">Date</string>
+    <string name="select_date">Tap to select date</string>
+    <string name="crop">Crop</string>
+    <string name="crop_example">Eg: Tomato</string>
+    <string name="activity_done">Activity Done</string>
+    <string name="activity_example">Eg: Irrigation, pesticide spray</string>
+    <string name="notes_optional">Notes / Problems (optional)</string>
+    <string name="extra_observations">Any extra observations</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Add Expense -->
+    <string name="add_expense">Add Expense</string>
+    <string name="crop_optional">Crop (optional)</string>
+    <string name="expense_crop_example">Eg: Tomato / General</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount (₹)</string>
+    <string name="amount_example">Eg: 1200</string>
+    <string name="notes">Notes (optional)</string>
+    <string name="expense_notes_example">Eg: Urea 50kg, labour charges</string>
+
+    <!-- Disease Detection -->
+    <string name="ai_crop_disease">AI Crop Disease Detection</string>
+    <string name="instant_diagnosis">Get instant diagnosis with treatment recommendations</string>
+    <string name="upload_crop_image">Upload Crop Image</string>
+    <string name="upload_instruction">Take a photo or upload from gallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="upload_gallery">Upload From Gallery</string>
+    <string name="how_it_works">How it works</string>
+    <string name="step_one">Take a clear photo of the affected crop area</string>
+    <string name="step_two">Our AI analyzes the image in seconds</string>
+    <string name="step_three">Get instant diagnosis with treatment plans</string>
+
+    <!-- Irrigation -->
+    <string name="irrigation_control">Irrigation Control</string>
+    <string name="smart_water_management">Smart water management for your farm</string>
+    <string name="control_mode">Control Mode</string>
+    <string name="ai_scheduling">AI-powered scheduling</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="irrigation_pump">Irrigation Pump</string>
+    <string name="currently_running">Currently running</string>
+    <string name="flow_rate">Flow Rate</string>
+    <string name="duration">Duration</string>
+    <string name="auto_mode_active">Auto Mode Active</string>
+    <string name="soil_moisture">Soil Moisture Levels</string>
+    <string name="whole_field_moisture">Whole Field Moisture</string>
+    <string name="optimal">Optimal</string>
+    <string name="water_usage">Water Usage (Last 7 Days)</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="avg_day">Avg/Day</string>
+    <string name="next_scheduled_irrigation">Next Scheduled Irrigation</string>
+    <string name="whole_field_auto">Whole Field - Auto Schedule</string>
+    <string name="today_6pm">--:--</string>
+    <string name="duration_minutes">Duration: 30 minutes</string>
+
+    <!-- Market -->
+    <string name="mandi_market_prices">Mandi Market Prices</string>
+    <string name="live_prices">Live prices from local mandis</string>
+    <string name="filter_state">Filter by State</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="price_trend">----:----</string>
+    <string name="min">Min</string>
+    <string name="current">Current</string>
+    <string name="max">Max</string>
+    <string name="market_insight">Market Insight</string>
+    <string name="best_selling_time">Best Selling Time</string>
+    <string name="next_days">Next 2-3 days</string>
+    <string name="todays_mandi_rates">Today\'s Mandi Rates</string>
+    <string name="search_item">Search Item (e.g. Wheat)</string>
+    <string name="view_more">View More</string>
+    <string name="nearby_mandis">Nearby Mandis (Top 5)</string>
+
+    <!-- Offline Library -->
+    <string name="offline_library">Offline Library</string>
+    <string name="offline_desc">Use learning content without internet</string>
+    <string name="offline_videos">Offline Videos</string>
+    <string name="offline_videos_desc">Tap to view saved tutorials on crop care, irrigation, and pest management.</string>
+    <string name="pdf_guides">PDF Guides</string>
+    <string name="pdf_guides_desc">Tap to view crop manuals, government schemes and best-practice PDFs.</string>
+
+    <!-- Schemes -->
+    <string name="government_schemes">Government Schemes</string>
+    <string name="scheme_subtitle">Explore benefits and apply for farmer welfare programs</string>
+    <string name="available_schemes">Available Schemes</string>
+    <string name="search_schemes">Search schemes (e.g., PM-KISAN)</string>
+    <string name="all">All</string>
+    <string name="central">Central</string>
+    <string name="state">State</string>
+    <string name="need_help">Need Help?</string>
+    <string name="help_desc">Contact our support team or visit your nearest agriculture office for assistance with scheme applications.</string>
+    <string name="helpline">Helpline</string>
+    <string name="email">Email</string>
+    <string name="important_notice">Important Notice</string>
+    <string name="important_notice_desc">Please ensure you have all required documents (Aadhaar, land records, bank details) before applying. Application deadlines vary by scheme.</string>
+
+    <!-- Voice Assistant -->
+    <string name="voice_assistant">Voice Assistant</string>
+    <string name="ask_anything">Ask me anything about farming</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="voice_help">I can help with farming questions</string>
+    <string name="use_comfortable_language">Use your comfortable language</string>
+    <string name="try_asking">Try asking...</string>
+    <string name="pill_weather">What\'s the weather forecast for this week?</string>
+    <string name="pill_pests">How to control aphids on my tomato plants?</string>
+    <string name="pill_mandi">Show me today\'s mandi prices</string>
+    <string name="pill_irrigation">When should I irrigate my crops?</string>
+    <string name="pill_schemes">What government schemes are available?</string>
+    <string name="pill_expense">Add fertilizer expense to crop diary</string>
+
+
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join the Bhoomi Mitra community</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_select_language">Select Language / भाषा चुनें</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="text_already_have_account">Already have an account? </string>
+    <string name="btn_login_text">Login</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="label_name">NAME</string>
+    <string name="label_email">EMAIL</string>
+    <string name="placeholder_name">Farmer Name</string>
+    <string name="placeholder_email">example@mail.com</string>
+    <string name="action_change_language">Change Language</string>
+    <string name="action_reset_data">Reset Data</string>
+    <string name="action_about">About</string>
+    <string name="action_logout">Logout</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="text_no_account">Don\'t have an account? </string>
+    <string name="action_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_disease">Disease</string>
+    <string name="nav_voice">Voice</string>
+    <string name="nav_irrigation">Irrigation</string>
+    <string name="nav_market">Market</string>
+    <string name="chat_title">Community Chat</string>
+    <string name="chat_subtitle">Ask doubts, share tips with other farmers</string>
+    <string name="hint_type_message">Type your message...</string>
+    <string name="btn_send">Send</string>
+
+    <string name="market_last_updated_time">--:--</string>
+    <string name="market_price_25">-:-</string>
+    <string name="market_price_35">-:-</string>
+    <string name="market_insight_text">Insight...</string>
+    <string name="irrigation_val_180">180 L/min</string>
+    <string name="irrigation_val_24m">24 minutes</string>
+    <string name="irrigation_val_68">68%</string>
+    <string name="irrigation_val_trend">↘ -12%</string>
+    <string name="irrigation_val_470">470L</string>
+    <string name="irrigation_val_32k">3.2kL</string>
+    <string name="irrigation_val_467">467L</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+
+    <string name="text_remember_me">Remember me</string>
+    <string name="text_new_user">New to Bhoomi Mitra? </string>
+    <string name="summary_diary_placeholder">Today’s Entries: 0</string>
+    <string name="summary_expense_placeholder">Total this month: ₹0</string>
+    <string name="scheme_help_phone">1800-180-1551</string>
+    <string name="scheme_help_email">support@agri.gov</string>
+    <string name="farm_status_msg">Your farm is doing great today! 🌱</string>
+    <string name="weather_condition_example">Partly Cloudy</string>
+    <string name="temp_example">28°C</string>
+    <string name="feels_like_example">Feels like 30°C</string>
+    <string name="last_updated_placeholder">Last updated at: --:--</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="val_humidity">65%</string>
+    <string name="label_wind">Wind</string>
+    <string name="val_wind">12 km/h</string>
+    <string name="label_soil_moisture">Soil Moisture</string>
+    <string name="val_soil_moisture">72%</string>
+    <string name="label_optimal">Optimal level</string>
+    <string name="label_irrigation">Irrigation</string>
+    <string name="label_active">Active</string>
+    <string name="label_auto_mode_on">Auto mode ON</string>
+    <string name="dash_detect_sub">AI-powered instant diagnosis</string>
+    <string name="label_quick_access">Quick Access</string>
+    <string name="label_community">Community</string>
+    <string name="label_schemes">Schemes</string>
+    <string name="offline_tap_hint">⬇ Tap to open your offline saved content</string>
+
+    <string name="control_mode_label">Control Mode</string>
+    <string name="status_manual_active">Manual control active</string>
+    <string name="label_soil_type">Soil Type</string>
+    <string name="hint_select_soil">Select soil type</string>
+    <string name="label_crop_sowed">Crop Sowed</string>
+    <string name="hint_select_crop">Select crop</string>
+    <string name="label_start_time">Daily Irrigation Start Time</string>
+    <string name="hint_select_time">Select time</string>
+    <string name="ai_adjustment_note">System will auto-adjust water duration using AI, but user-selected time is respected.</string>
+    <string name="title_irrigation_pump">Irrigation Pump</string>
+    <string name="status_currently_running">Currently running</string>
+    <string name="status_currently_off">Currently off</string>
+    <string name="label_flow_rate">Flow Rate</string>
+    <string name="placeholder_flow_rate">10 L/min</string>
+    <string name="label_duration">Duration</string>
+    <string name="placeholder_timer">00:00</string>
+    <string name="btn_turn_off_pump">Turn Off Pump</string>
+    <string name="btn_turn_on_pump">Turn On Pump</string>
+    <string name="placeholder_percentage">--%</string>
+
+
+</resources>

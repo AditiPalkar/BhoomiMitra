@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/disease"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/nav_disease" />
+
+    <item
+        android:id="@+id/voice"
+        android:icon="@drawable/ic_mic"
+        android:title="@string/nav_voice" />
+
+    <item
+        android:id="@+id/irrigation"
+        android:icon="@drawable/ic_drop"
+        android:title="@string/nav_irrigation" />
+
+    <item
+        android:id="@+id/market"
+        android:icon="@drawable/ic_market"
+        android:title="@string/nav_market" />
+
+</menu>

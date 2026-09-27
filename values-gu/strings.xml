@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ભૂમિ મિત્ર</string>
+    <string name="hello">નમસ્તે</string>
+    <string name="profile">પ્રોફાઇલ</string>
+    <string name="logout">લોગ આઉટ</string>
+    <string name="about">વિશે</string>
+    <string name="reset_data">ડેટા રીસેટ કરો</string>
+    <string name="change_language">ભાષા બદલો</string>
+
+    <string name="crop_diary_and_expenses">પાક ડાયરી અને ખર્ચ</string>
+    <string name="track_farm_activities">તમારી ખેતીની પ્રવૃત્તિઓ અને ખર્ચનો ટ્રેક રાખો</string>
+    <string name="diary">ડાયરી</string>
+    <string name="expenses">ખર્ચ</string>
+    <string name="today_entries">આજની એન્ટ્રી: %1$d</string>
+    <string name="total_this_month">આ મહિનાનો કુલ ખર્ચ: ₹%1$d</string>
+    <string name="add_entry">એન્ટ્રી ઉમેરો</string>
+
+    <string name="add_diary_entry">ડાયરી એન્ટ્રી ઉમેરો</string>
+    <string name="date">તારીખ</string>
+    <string name="select_date">તારીખ પસંદ કરવા માટે ટેપ કરો</string>
+    <string name="crop">પાક</string>
+    <string name="crop_example">દા.ત: ટામેટા</string>
+    <string name="activity_done">કરેલ કાર્ય</string>
+    <string name="activity_example">દા.ત: સિંચાઈ, જંતુનાશક છંટકાવ</string>
+    <string name="notes_optional">નોંધ / સમસ્યાઓ (વૈકલ્પિક)</string>
+    <string name="extra_observations">કોઈપણ વધારાના અવલોકનો</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="save">સેવ કરો</string>
+
+    <string name="add_expense">ખર્ચ ઉમેરો</string>
+    <string name="crop_optional">પાક (વૈકલ્પિક)</string>
+    <string name="expense_crop_example">દા.ત: ટામેટા / સામાન્ય</string>
+    <string name="category">શ્રેણી</string>
+    <string name="amount">રકમ (₹)</string>
+    <string name="amount_example">દા.ત: 1200</string>
+    <string name="notes">નોંધ (વૈકલ્પિક)</string>
+    <string name="expense_notes_example">દા.ત: યુરિયા 50 કિગ્રા, મજૂરી</string>
+
+    <string name="ai_crop_disease">AI પાક રોગ નિદાન</string>
+    <string name="instant_diagnosis">સારવારની ભલામણો સાથે ત્વરિત નિદાન મેળવો</string>
+    <string name="upload_crop_image">પાકનો ફોટો અપલોડ કરો</string>
+    <string name="upload_instruction">ફોટો લો અથવા ગેલેરીમાંથી અપલોડ કરો</string>
+    <string name="take_photo">ફોટો લો</string>
+    <string name="upload_gallery">ગેલેરીમાંથી અપલોડ કરો</string>
+    <string name="how_it_works">તે કેવી રીતે કામ કરે છે</string>
+    <string name="step_one">અસરગ્રસ્ત પાક વિસ્તારનો સ્પષ્ટ ફોટો લો</string>
+    <string name="step_two">અમારું AI સેકન્ડોમાં છબીનું વિશ્લેષણ કરે છે</string>
+    <string name="step_three">સારવાર યોજનાઓ સાથે ત્વરિત નિદાન મેળવો</string>
+
+    <string name="irrigation_control">સિંચાઈ નિયંત્રણ</string>
+    <string name="smart_water_management">તમારા ખેતર માટે સ્માર્ટ જળ વ્યવસ્થાપન</string>
+    <string name="control_mode">કંટ્રોલ મોડ</string>
+    <string name="ai_scheduling">AI-સંચાલિત સમયપત્રક</string>
+    <string name="auto_mode">ઓટો મોડ</string>
+    <string name="manual_mode">મેન્યુઅલ મોડ</string>
+    <string name="irrigation_pump">સિંચાઈ પંપ</string>
+    <string name="currently_running">હાલમાં ચાલુ છે</string>
+    <string name="flow_rate">પ્રવાહ દર</string>
+    <string name="duration">સમયગાળો</string>
+    <string name="auto_mode_active">ઓટો મોડ સક્રિય</string>
+    <string name="soil_moisture">જમીનમાં ભેજનું પ્રમાણ</string>
+    <string name="whole_field_moisture">આખા ખેતરનો ભેજ</string>
+    <string name="optimal">શ્રેષ્ઠ</string>
+    <string name="water_usage">પાણીનો વપરાશ (છેલ્લા 7 દિવસ)</string>
+    <string name="today">આજે</string>
+    <string name="weekly">સાપ્તાહિક</string>
+    <string name="avg_day">સરેરાશ/દિવસ</string>
+    <string name="next_scheduled_irrigation">આગળની નિયત સિંચાઈ</string>
+    <string name="whole_field_auto">આખું ખેતર - ઓટો શેડ્યૂલ</string>
+    <string name="today_6pm">--:--</string>
+    <string name="duration_minutes">સમયગાળો: 30 મિનિટ</string>
+
+    <string name="mandi_market_prices">મંડી બજાર ભાવ</string>
+    <string name="live_prices">સ્થાનિક મંડીઓમાંથી લાઈવ ભાવ</string>
+    <string name="filter_state">રાજ્ય દ્વારા ફિલ્ટર કરો</string>
+    <string name="last_updated">છેલ્લું અપડેટ</string>
+    <string name="price_trend">----:----</string>
+    <string name="min">લઘુત્તમ</string>
+    <string name="current">વર્તમાન</string>
+    <string name="max">મહત્તમ</string>
+    <string name="market_insight">બજારની સમજ</string>
+    <string name="best_selling_time">વેચવાનો શ્રેષ્ઠ સમય</string>
+    <string name="next_days">આગામી 2-3 દિવસ</string>
+    <string name="todays_mandi_rates">આજના મંડીના ભાવ</string>
+    <string name="search_item">વસ્તુ શોધો (દા.ત. ઘઉં)</string>
+    <string name="view_more">વધુ જુઓ</string>
+    <string name="nearby_mandis">નજીકની મંડીઓ (ટોચના 5)</string>
+
+    <string name="offline_library">ઓફલાઇન લાઈબ્રેરી</string>
+    <string name="offline_desc">ઇન્ટરનેટ વિના શીખવાની સામગ્રીનો ઉપયોગ કરો</string>
+    <string name="offline_videos">ઓફલાઇન વિડિઓઝ</string>
+    <string name="offline_videos_desc">પાક સંભાળ અને સિંચાઈ પરના સાચવેલા વિડિઓઝ જોવા માટે ટેપ કરો.</string>
+    <string name="pdf_guides">પીડીએફ માર્ગદર્શિકાઓ</string>
+    <string name="pdf_guides_desc">પાક માર્ગદર્શિકાઓ અને સરકારી યોજનાઓની પીડીએફ જોવા માટે ટેપ કરો.</string>
+
+    <string name="government_schemes">સરકારી યોજનાઓ</string>
+    <string name="scheme_subtitle">લાભો જુઓ અને ખેડૂત કલ્યાણ કાર્યક્રમો માટે અરજી કરો</string>
+    <string name="available_schemes">ઉપલબ્ધ યોજનાઓ</string>
+    <string name="search_schemes">યોજના શોધો (દા.ત., પીએમ-કિસાન)</string>
+    <string name="all">બધા</string>
+    <string name="central">કેન્દ્રિય</string>
+    <string name="state">રાજ્ય</string>
+    <string name="need_help">મદદ જોઈએ છે?</string>
+    <string name="help_desc">અરજી કરવામાં સહાય માટે અમારી સપોર્ટ ટીમનો સંપર્ક કરો અથવા નજીકની કૃષિ કચેરીની મુલાકાત લો.</string>
+    <string name="helpline">હેલ્પલાઇન</string>
+    <string name="email">ઈમેલ</string>
+    <string name="important_notice">મહત્વપૂર્ણ સૂચના</string>
+    <string name="important_notice_desc">અરજી કરતા પહેલા ખાતરી કરો કે તમારી પાસે બધા જરૂરી દસ્તાવેજો (આધાર, જમીન રેકોર્ડ, બેંક વિગતો) છે.</string>
+
+    <string name="voice_assistant">વોઇસ આસિસ્ટન્ટ</string>
+    <string name="ask_anything">મને ખેતી વિશે કંઈપણ પૂછો</string>
+    <string name="tap_to_speak">બોલવા માટે ટેપ કરો</string>
+    <string name="voice_help">હું ખેતીના પ્રશ્નોમાં મદદ કરી શકું છું</string>
+    <string name="use_comfortable_language">તમારી અનુકૂળ ભાષાનો ઉપયોગ કરો</string>
+    <string name="try_asking">આ પૂછવાનો પ્રયાસ કરો...</string>
+    <string name="pill_weather">આ અઠવાડિયે હવામાનની આગાહી શું છે?</string>
+    <string name="pill_pests">હું મારા ટામેટાના છોડ પર જીવાતોને કેવી રીતે નિયંત્રિત કરું?</string>
+    <string name="pill_mandi">મને આજના મંડીના ભાવ બતાવો</string>
+    <string name="pill_irrigation">મારે મારા પાકને ક્યારે સિંચાઈ કરવી જોઈએ?</string>
+    <string name="pill_schemes">કઈ સરકારી યોજનાઓ ઉપલબ્ધ છે?</string>
+    <string name="pill_expense">પાક ડાયરીમાં ખાતરનો ખર્ચ ઉમેરો</string>
+
+    <string name="register_title">ખાતું બનાવો</string>
+    <string name="register_subtitle">ભૂમિ મિત્ર સમુદાયમાં જોડાઓ</string>
+    <string name="hint_full_name">પૂરું નામ</string>
+    <string name="hint_email">ઈમેલ એડ્રેસ</string>
+    <string name="hint_password">પાસવર્ડ</string>
+    <string name="hint_confirm_password">પાસવર્ડ કન્ફર્મ કરો</string>
+    <string name="hint_select_language">ભાષા પસંદ કરો</string>
+    <string name="btn_sign_up">સાઈન અપ</string>
+    <string name="text_already_have_account">શું તમારી પાસે પહેલાથી ખાતું છે? </string>
+    <string name="btn_login_text">લોગ ઇન</string>
+
+    <string name="title_profile">પ્રોફાઇલ</string>
+    <string name="label_name">નામ</string>
+    <string name="label_email">ઈમેલ</string>
+    <string name="placeholder_name">ખેડૂતનું નામ</string>
+    <string name="placeholder_email">example@mail.com</string>
+    <string name="action_change_language">ભાષા બદલો</string>
+    <string name="action_reset_data">ડેટા રીસેટ કરો</string>
+    <string name="action_about">વિશે</string>
+    <string name="action_logout">લોગ આઉટ</string>
+    <string name="login_title">ફરી સ્વાગત છે</string>
+    <string name="login_subtitle">ચાલુ રાખવા માટે સાઇન ઇન કરો</string>
+    <string name="action_forgot_password">પાસવર્ડ ભૂલી ગયા છો?</string>
+    <string name="text_no_account">ખાતું નથી? </string>
+    <string name="action_register">રજીસ્ટર કરો</string>
+    <string name="btn_login">લોગ ઇન</string>
+
+    <string name="nav_home">હોમ</string>
+    <string name="nav_disease">રોગ</string>
+    <string name="nav_voice">વોઈસ</string>
+    <string name="nav_irrigation">સિંચાઈ</string>
+    <string name="nav_market">મંડી</string>
+    <string name="chat_title">સામુદાયિક ચર્ચા</string>
+    <string name="chat_subtitle">પ્રશ્નો પૂછો, અન્ય ખેડૂતો સાથે ટીપ્સ શેર કરો</string>
+    <string name="hint_type_message">તમારો સંદેશ લખો...</string>
+    <string name="btn_send">મોકલો</string>
+
+    <string name="market_last_updated_time">--:--</string>
+    <string name="market_price_25">-:-</string>
+    <string name="market_price_35">-:-</string>
+    <string name="market_insight_text">જાણકારી...</string>
+    <string name="irrigation_val_180">180 લી/મિનિટ</string>
+    <string name="irrigation_val_24m">24 મિનિટ</string>
+    <string name="irrigation_val_68">68%</string>
+    <string name="irrigation_val_trend">↘ -12%</string>
+    <string name="irrigation_val_470">470 લી</string>
+    <string name="irrigation_val_32k">3.2 કિ.લી</string>
+    <string name="irrigation_val_467">467 લી</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+
+    <string name="text_remember_me">મને યાદ રાખો</string>
+    <string name="text_new_user">ભૂમિ મિત્ર પર નવા છો? </string>
+
+    <string name="summary_diary_placeholder">આજની એન્ટ્રી: 0</string>
+    <string name="summary_expense_placeholder">આ મહિનાનો કુલ ખર્ચ: ₹0</string>
+
+    <string name="scheme_help_phone">1800-180-1551</string>
+    <string name="scheme_help_email">support@agri.gov</string>
+
+    <string name="farm_status_msg">તમારું ખેતર આજે સરસ પ્રગતિ કરી રહ્યું છે! 🌱</string>
+    <string name="weather_condition_example">આંશિક વાદળછાયું</string>
+    <string name="temp_example">28°C</string>
+    <string name="feels_like_example">30°C જેવું લાગે છે</string>
+    <string name="last_updated_placeholder">છેલ્લે અપડેટ: --:--</string>
+    <string name="label_humidity">ભેજ</string>
+    <string name="val_humidity">65%</string>
+    <string name="label_wind">પવન</string>
+    <string name="val_wind">12 કિમી/કલાક</string>
+    <string name="label_soil_moisture">જમીનમાં ભેજ</string>
+    <string name="val_soil_moisture">72%</string>
+    <string name="label_optimal">શ્રેષ્ઠ સ્તર</string>
+    <string name="label_irrigation">સિંચાઈ</string>
+    <string name="label_active">સક્રિય</string>
+    <string name="label_auto_mode_on">ઓટો મોડ ચાલુ</string>
+    <string name="dash_detect_sub">AI-સંચાલિત ત્વરિત નિદાન</string>
+    <string name="label_quick_access">ઝડપી ઍક્સેસ</string>
+    <string name="label_community">સમુદાય</string>
+    <string name="label_schemes">યોજનાઓ</string>
+    <string name="offline_tap_hint">⬇ તમારી સેવ કરેલી સામગ્રી ખોલવા માટે ટેપ કરો</string>
+
+    <string name="control_mode_label">કંટ્રોલ મોડ</string>
+    <string name="status_manual_active">મેન્યુઅલ નિયંત્રણ સક્રિય</string>
+
+    <string name="label_soil_type">જમીનનો પ્રકાર</string>
+    <string name="hint_select_soil">જમીનનો પ્રકાર પસંદ કરો</string>
+
+    <string name="label_crop_sowed">વાવેલો પાક</string>
+    <string name="hint_select_crop">પાક પસંદ કરો</string>
+
+    <string name="label_start_time">દૈનિક સિંચાઈનો પ્રારંભ સમય</string>
+    <string name="hint_select_time">સમય પસંદ કરો</string>
+
+    <string name="ai_adjustment_note">સિસ્ટમ AI નો ઉપયોગ કરીને પાણીનો સમયગાળો આપમેળે સમાયોજિત કરશે, પરંતુ વપરાશકર્તા દ્વારા પસંદ કરેલ સમયનું પાલન કરવામાં આવશે.</string>
+
+    <string name="title_irrigation_pump">સિંચાઈ પંપ</string>
+    <string name="status_currently_running">હાલમાં ચાલુ છે</string>
+    <string name="status_currently_off">હાલમાં બંધ છે</string>
+
+    <string name="label_flow_rate">પ્રવાહ દર</string>
+    <string name="placeholder_flow_rate">10 લી/મિનિટ</string>
+
+    <string name="label_duration">સમયગાળો</string>
+    <string name="placeholder_timer">00:00</string>
+
+    <string name="btn_turn_off_pump">પંપ બંધ કરો</string>
+    <string name="btn_turn_on_pump">પંપ ચાલુ કરો</string>
+
+    <string name="placeholder_percentage">--%</string>
+
+</resources>

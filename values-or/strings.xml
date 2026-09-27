@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ଭୂମି ମିତ୍ର</string>
+    <string name="hello">ନମସ୍କାର</string>
+    <string name="profile">ପ୍ରୋଫାଇଲ୍</string>
+    <string name="logout">ଲଗ୍ ଆଉଟ୍</string>
+    <string name="about">ବିଷୟରେ</string>
+    <string name="reset_data">ଡାଟା ରିସେଟ୍ କରନ୍ତୁ</string>
+    <string name="change_language">ଭାଷା ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
+
+    <string name="crop_diary_and_expenses">ଫସଲ ଡାଏରୀ ଏବଂ ଖର୍ଚ୍ଚ</string>
+    <string name="track_farm_activities">ଆପଣଙ୍କ ଚାଷ କାର୍ଯ୍ୟ ଏବଂ ଖର୍ଚ୍ଚ ଟ୍ରାକ୍ କରନ୍ତୁ</string>
+    <string name="diary">ଡାଏରୀ</string>
+    <string name="expenses">ଖର୍ଚ୍ଚ</string>
+    <string name="today_entries">ଆଜିର ଏଣ୍ଟ୍ରି: %1$d</string>
+    <string name="total_this_month">ଏହି ମାସର ସମୁଦାୟ: ₹%1$d</string>
+    <string name="add_entry">ଏଣ୍ଟ୍ରି ଯୋଡନ୍ତୁ</string>
+
+    <string name="add_diary_entry">ଡାଏରୀ ଏଣ୍ଟ୍ରି ଯୋଡନ୍ତୁ</string>
+    <string name="date">ତାରିଖ</string>
+    <string name="select_date">ତାରିଖ ବାଛିବା ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ</string>
+    <string name="crop">ଫସଲ</string>
+    <string name="crop_example">ଉଦା: ଟମାଟୋ</string>
+    <string name="activity_done">କରାଯାଇଥିବା କାର୍ଯ୍ୟ</string>
+    <string name="activity_example">ଉଦା: ଜଳସେଚନ, କୀଟନାଶକ ସ୍ପ୍ରେ</string>
+    <string name="notes_optional">ନୋଟ୍ / ସମସ୍ୟା (ଇଚ୍ଛାଧୀନ)</string>
+    <string name="extra_observations">କୌଣସି ଅତିରିକ୍ତ ପର୍ଯ୍ୟବେକ୍ଷଣ</string>
+    <string name="cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
+    <string name="save">ସେଭ୍ କରନ୍ତୁ</string>
+
+    <string name="add_expense">ଖର୍ଚ୍ଚ ଯୋଡନ୍ତୁ</string>
+    <string name="crop_optional">ଫସଲ (ଇଚ୍ଛାଧୀନ)</string>
+    <string name="expense_crop_example">ଉଦା: ଟମାଟୋ / ସାଧାରଣ</string>
+    <string name="category">ବିଭାଗ</string>
+    <string name="amount">ଟଙ୍କା (₹)</string>
+    <string name="amount_example">ଉଦା: 1200</string>
+    <string name="notes">ନୋଟ୍ (ଇଚ୍ଛାଧୀନ)</string>
+    <string name="expense_notes_example">ଉଦା: ୟୁରିଆ 50 କିଲୋଗ୍ରାମ, ମଜୁରୀ</string>
+
+    <string name="ai_crop_disease">AI ଫସଲ ରୋଗ ଚିହ୍ନଟ</string>
+    <string name="instant_diagnosis">ଚିକିତ୍ସା ପରାମର୍ଶ ସହିତ ତୁରନ୍ତ ରୋଗ ନିର୍ଣ୍ଣୟ କରନ୍ତୁ</string>
+    <string name="upload_crop_image">ଫସଲ ଫଟୋ ଅପଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="upload_instruction">ଫଟୋ ନିଅନ୍ତୁ କିମ୍ବା ଗ୍ୟାଲେରୀରୁ ଅପଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="take_photo">ଫଟୋ ନିଅନ୍ତୁ</string>
+    <string name="upload_gallery">ଗ୍ୟାଲେରୀରୁ ଅପଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="how_it_works">ଏହା କିପରି କାମ କରେ</string>
+    <string name="step_one">ପ୍ରଭାବିତ ଫସଲ ଅଞ୍ଚଳର ସ୍ପଷ୍ଟ ଫଟୋ ନିଅନ୍ତୁ</string>
+    <string name="step_two">ଆମର AI କିଛି ସେକେଣ୍ଡରେ ଚିତ୍ର ବିଶ୍ଳେଷଣ କରେ</string>
+    <string name="step_three">ଚିକିତ୍ସା ଯୋଜନା ସହିତ ତୁରନ୍ତ ଫଳାଫଳ ପାଆନ୍ତୁ</string>
+
+    <string name="irrigation_control">ଜଳସେଚନ ନିୟନ୍ତ୍ରଣ</string>
+    <string name="smart_water_management">ଆପଣଙ୍କ ଚାଷ ଜମି ପାଇଁ ସ୍ମାର୍ଟ ଜଳ ପରିଚାଳନା</string>
+    <string name="control_mode">କଣ୍ଟ୍ରୋଲ୍ ମୋଡ୍</string>
+    <string name="ai_scheduling">AI-ଚାଳିତ ସମୟସାରଣୀ</string>
+    <string name="auto_mode">ଅଟୋ ମୋଡ୍</string>
+    <string name="manual_mode">ମାନୁଆଲ୍ ମୋଡ୍</string>
+    <string name="irrigation_pump">ଜଳସେଚନ ପମ୍ପ</string>
+    <string name="currently_running">ବର୍ତ୍ତମାନ ଚାଲୁଅଛି</string>
+    <string name="flow_rate">ପ୍ରବାହ ହାର</string>
+    <string name="duration">ଅବଧି</string>
+    <string name="auto_mode_active">ଅଟୋ ମୋଡ୍ ସକ୍ରିୟ ଅଛି</string>
+    <string name="soil_moisture">ମାଟିର ଆର୍ଦ୍ରତା ସ୍ତର</string>
+    <string name="whole_field_moisture">ସମଗ୍ର କ୍ଷେତ୍ରର ଆର୍ଦ୍ରତା</string>
+    <string name="optimal">ଉପଯୁକ୍ତ</string>
+    <string name="water_usage">ଜଳ ବ୍ୟବହାର (ଗତ 7 ଦିନ)</string>
+    <string name="today">ଆଜି</string>
+    <string name="weekly">ସାପ୍ତାହିକ</string>
+    <string name="avg_day">ହାରାହାରି/ଦିନ</string>
+    <string name="next_scheduled_irrigation">ପରବର୍ତ୍ତୀ ନିର୍ଦ୍ଧାରିତ ଜଳସେଚନ</string>
+    <string name="whole_field_auto">ସମଗ୍ର କ୍ଷେତ୍ର - ଅଟୋ ସିଡ୍ୟୁଲ୍</string>
+    <string name="today_6pm">--:--</string>
+    <string name="duration_minutes">ଅବଧି: 30 ମିନିଟ୍</string>
+
+    <string name="mandi_market_prices">ମଣ୍ଡି ବଜାର ଦର</string>
+    <string name="live_prices">ସ୍ଥାନୀୟ ମଣ୍ଡିରୁ ଲାଇଭ୍ ଦର</string>
+    <string name="filter_state">ରାଜ୍ୟ ଅନୁସାରେ ଫିଲ୍ଟର୍ କରନ୍ତୁ</string>
+    <string name="last_updated">ଶେଷ ଅପଡେଟ୍</string>
+    <string name="price_trend">----:----</string>
+    <string name="min">ସର୍ବନିମ୍ନ</string>
+    <string name="current">ବର୍ତ୍ତମାନ</string>
+    <string name="max">ସର୍ବାଧିକ</string>
+    <string name="market_insight">ବଜାର ସୂଚନା</string>
+    <string name="best_selling_time">ବିକ୍ରୟ କରିବାର ସର୍ବୋତ୍ତମ ସମୟ</string>
+    <string name="next_days">ଆଗାମୀ 2-3 ଦିନ</string>
+    <string name="todays_mandi_rates">ଆଜିର ମଣ୍ଡି ଦର</string>
+    <string name="search_item">ସାମଗ୍ରୀ ଖୋଜନ୍ତୁ (ଉଦା. ଗହମ)</string>
+    <string name="view_more">ଅଧିକ ଦେଖନ୍ତୁ</string>
+    <string name="nearby_mandis">ନିକଟସ୍ଥ ମଣ୍ଡି (ଶୀର୍ଷ 5)</string>
+
+    <string name="offline_library">ଅଫଲାଇନ୍ ଲାଇବ୍ରେରୀ</string>
+    <string name="offline_desc">ଇଣ୍ଟର୍ନେଟ୍ ବିନା ଶିକ୍ଷଣ ବିଷୟବସ୍ତୁ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="offline_videos">ଅଫଲାଇନ୍ ଭିଡିଓ</string>
+    <string name="offline_videos_desc">ସେଭ୍ ହୋଇଥିବା ଫସଲ ଯତ୍ନ ଏବଂ ଜଳସେଚନ ଭିଡିଓ ଦେଖିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ।</string>
+    <string name="pdf_guides">PDF ଗାଇଡ୍</string>
+    <string name="pdf_guides_desc">ଫସଲ ମାନୁଆଲ୍ ଏବଂ ସରକାରୀ ଯୋଜନା PDF ଦେଖିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ।</string>
+
+    <string name="government_schemes">ସରକାରୀ ଯୋଜନା</string>
+    <string name="scheme_subtitle">ସୁବିଧାଗୁଡ଼ିକ ଅନ୍ୱେଷଣ କରନ୍ତୁ ଏବଂ କୃଷକ କଲ୍ୟାଣ କାର୍ଯ୍ୟକ୍ରମ ପାଇଁ ଆବେଦନ କରନ୍ତୁ</string>
+    <string name="available_schemes">ଉପଲବ୍ଧ ଯୋଜନା</string>
+    <string name="search_schemes">ଯୋଜନା ଖୋଜନ୍ତୁ (ଉଦା. PM-KISAN)</string>
+    <string name="all">ସମସ୍ତ</string>
+    <string name="central">କେନ୍ଦ୍ରୀୟ</string>
+    <string name="state">ରାଜ୍ୟ</string>
+    <string name="need_help">ସାହାଯ୍ୟ ଦରକାର କି?</string>
+    <string name="help_desc">ଆବେଦନ ପାଇଁ ଆମର ସହାୟତା ଟିମ୍ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ କିମ୍ବା ନିକଟସ୍ଥ କୃଷି କାର୍ଯ୍ୟାଳୟ ପରିଦର୍ଶନ କରନ୍ତୁ।</string>
+    <string name="helpline">ହେଲ୍ପଲାଇନ</string>
+    <string name="email">ଇମେଲ୍</string>
+    <string name="important_notice">ଜରୁରୀ ସୂଚନା</string>
+    <string name="important_notice_desc">ଆବେଦନ କରିବା ପୂର୍ବରୁ ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣଙ୍କ ପାଖରେ ସମସ୍ତ ଆବଶ୍ୟକୀୟ ଦଲିଲ (ଆଧାର, ଜମି ରେକର୍ଡ, ବ୍ୟାଙ୍କ ବିବରଣୀ) ଅଛି।</string>
+
+    <string name="voice_assistant">ଭଏସ୍ ଆସିଷ୍ଟାଣ୍ଟ</string>
+    <string name="ask_anything">ଚାଷ ବିଷୟରେ ମୋତେ କିଛି ପଚାରନ୍ତୁ</string>
+    <string name="tap_to_speak">କହିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ</string>
+    <string name="voice_help">ମୁଁ ଚାଷ ପ୍ରଶ୍ନରେ ସାହାଯ୍ୟ କରିପାରିବି</string>
+    <string name="use_comfortable_language">ଆପଣଙ୍କ ସୁବିଧାଜନକ ଭାଷା ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="try_asking">ଏହିପରି ପଚାରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ...</string>
+    <string name="pill_weather">ଏହି ସପ୍ତାହରେ ପାଣିପାଗ ପୂର୍ବାନୁମାନ କ’ଣ?</string>
+    <string name="pill_pests">ମୁଁ ମୋର ଟମାଟୋ ଗଛରେ ପୋକ କିପରି ନିୟନ୍ତ୍ରଣ କରିବି?</string>
+    <string name="pill_mandi">ମୋତେ ଆଜିର ମଣ୍ଡି ଦର ଦେଖାନ୍ତୁ</string>
+    <string name="pill_irrigation">ମୁଁ ମୋର ଫସଲକୁ କେବେ ଜଳସେଚନ କରିବା ଉଚିତ୍?</string>
+    <string name="pill_schemes">କେଉଁ ସରକାରୀ ଯୋଜନା ଉପଲବ୍ଧ ଅଛି?</string>
+    <string name="pill_expense">ଫସଲ ଡାଏରୀରେ ସାର ଖର୍ଚ୍ଚ ଯୋଡନ୍ତୁ</string>
+
+
+    <string name="register_title">ଆକାଉଣ୍ଟ୍ ତିଆରି କରନ୍ତୁ</string>
+    <string name="register_subtitle">ଭୂମି ମିତ୍ର ସମ୍ପ୍ରଦାୟରେ ଯୋଗ ଦିଅନ୍ତୁ</string>
+    <string name="hint_full_name">ପୁରା ନାମ</string>
+    <string name="hint_email">ଇମେଲ୍ ଠିକଣା</string>
+    <string name="hint_password">ପାସୱାର୍ଡ</string>
+    <string name="hint_confirm_password">ପାସୱାର୍ଡ ନିଶ୍ଚିତ କରନ୍ତୁ</string>
+    <string name="hint_select_language">ଭାଷା ଚୟନ କରନ୍ତୁ</string>
+    <string name="btn_sign_up">ସାଇନ୍ ଅପ୍</string>
+    <string name="text_already_have_account">ପୂର୍ବରୁ ଆକାଉଣ୍ଟ୍ ଅଛି କି? </string>
+    <string name="btn_login_text">ଲଗ୍ ଇନ୍</string>
+
+    <string name="title_profile">ପ୍ରୋଫାଇଲ୍</string>
+    <string name="label_name">ନାମ</string>
+    <string name="label_email">ଇମେଲ୍</string>
+    <string name="placeholder_name">ଚାଷୀଙ୍କ ନାମ</string>
+    <string name="placeholder_email">example@mail.com</string>
+    <string name="action_change_language">ଭାଷା ପରିବର୍ତ୍ତନ କରନ୍ତୁ</string>
+    <string name="action_reset_data">ଡାଟା ରିସେଟ୍ କରନ୍ତୁ</string>
+    <string name="action_about">ବିଷୟରେ</string>
+    <string name="action_logout">ଲଗ୍ ଆଉଟ୍</string>
+    <string name="login_title">ପୁଣି ସ୍ୱାଗତ</string>
+    <string name="login_subtitle">ଜାରି ରଖିବାକୁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ</string>
+    <string name="action_forgot_password">ପାସୱାର୍ଡ ଭୁଲିଗଲେ କି?</string>
+    <string name="text_no_account">ଆକାଉଣ୍ଟ୍ ନାହିଁ କି? </string>
+    <string name="action_register">ପଞ୍ଜିକରଣ କରନ୍ତୁ</string>
+    <string name="btn_login">ଲଗ୍ ଇନ୍</string>
+
+    <string name="nav_home">ହୋମ୍</string>
+    <string name="nav_disease">ରୋଗ</string>
+    <string name="nav_voice">ଭଏସ୍</string>
+    <string name="nav_irrigation">ଜଳସେଚନ</string>
+    <string name="nav_market">ମଣ୍ଡି</string>
+    <string name="chat_title">ଗୋଷ୍ଠୀ ଚାଟ୍</string>
+    <string name="chat_subtitle">ସନ୍ଦେହ ପଚାରନ୍ତୁ, ଅନ୍ୟ ଚାଷୀଙ୍କ ସହ ଟିପ୍ସ ସେୟାର କରନ୍ତୁ</string>
+    <string name="hint_type_message">ଆପଣଙ୍କ ବାର୍ତ୍ତା ଲେଖନ୍ତୁ...</string>
+    <string name="btn_send">ପଠାନ୍ତୁ</string>
+
+    <string name="market_last_updated_time">--:--</string>
+    <string name="market_price_25">-:-</string>
+    <string name="market_price_35">-:-</string>
+    <string name="market_insight_text">ସୂଚନା...</string>
+    <string name="irrigation_val_180">180 ଲି/ମିନିଟ୍</string>
+    <string name="irrigation_val_24m">24 ମିନିଟ୍</string>
+    <string name="irrigation_val_68">68%</string>
+    <string name="irrigation_val_trend">↘ -12%</string>
+    <string name="irrigation_val_470">470 ଲି</string>
+    <string name="irrigation_val_32k">3.2 କି.ଲି</string>
+    <string name="irrigation_val_467">467 ଲି</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+
+    <string name="text_remember_me">ମୋତେ ମନେରଖନ୍ତୁ</string>
+    <string name="text_new_user">ଭୂମି ମିତ୍ରରେ ନୂଆ କି? </string>
+
+    <string name="summary_diary_placeholder">ଆଜିର ଏଣ୍ଟ୍ରି: ୦</string>
+    <string name="summary_expense_placeholder">ଏହି ମାସର ସମୁଦାୟ: ₹୦</string>
+
+    <string name="scheme_help_phone">1800-180-1551</string>
+    <string name="scheme_help_email">support@agri.gov</string>
+
+    <string name="farm_status_msg">ଆପଣଙ୍କ ଚାଷ ଜମି ଆଜି ବହୁତ ଭଲ ଅଛି! 🌱</string>
+    <string name="weather_condition_example">ଆଂଶିକ ମେଘୁଆ</string>
+    <string name="temp_example">28°C</string>
+    <string name="feels_like_example">30°C ପରି ଲାଗୁଛି</string>
+    <string name="last_updated_placeholder">ଶେଷ ଅପଡେଟ୍: --:--</string>
+    <string name="label_humidity">ଆର୍ଦ୍ରତା</string>
+    <string name="val_humidity">65%</string>
+    <string name="label_wind">ପବନ</string>
+    <string name="val_wind">12 କି.ମି/ଘଣ୍ଟା</string>
+    <string name="label_soil_moisture">ମାଟିର ଆର୍ଦ୍ରତା</string>
+    <string name="val_soil_moisture">72%</string>
+    <string name="label_optimal">ଉପଯୁକ୍ତ ସ୍ତର</string>
+    <string name="label_irrigation">ଜଳସେଚନ</string>
+    <string name="label_active">ସକ୍ରିୟ</string>
+    <string name="label_auto_mode_on">ଅଟୋ ମୋଡ୍ ଅନ୍</string>
+    <string name="dash_detect_sub">AI-ଚାଳିତ ତୁରନ୍ତ ରୋଗ ନିର୍ଣ୍ଣୟ</string>
+    <string name="label_quick_access">ଶୀଘ୍ର ପ୍ରବେଶ</string>
+    <string name="label_community">ସମ୍ପ୍ରଦାୟ</string>
+    <string name="label_schemes">ଯୋଜନା</string>
+    <string name="offline_tap_hint">⬇ ଆପଣଙ୍କ ସେଭ୍ ହୋଇଥିବା ବିଷୟବସ୍ତୁ ଖୋଲିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ</string>
+
+    <string name="control_mode_label">ନିୟନ୍ତ୍ରଣ ମୋଡ୍</string>
+    <string name="status_manual_active">ମାନୁଆଲ୍ ନିୟନ୍ତ୍ରଣ ସକ୍ରିୟ</string>
+
+    <string name="label_soil_type">ମାଟିର ପ୍ରକାର</string>
+    <string name="hint_select_soil">ମାଟିର ପ୍ରକାର ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="label_crop_sowed">ବୁଣାଯାଇଥିବା ଫସଲ</string>
+    <string name="hint_select_crop">ଫସଲ ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="label_start_time">ଦୈନିକ ଜଳସେଚନ ଆରମ୍ଭ ସମୟ</string>
+    <string name="hint_select_time">ସମୟ ଚୟନ କରନ୍ତୁ</string>
+
+    <string name="ai_adjustment_note">ସିଷ୍ଟମ୍ AI ବ୍ୟବହାର କରି ଜଳସେଚନ ଅବଧିକୁ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ସଜାଡିବ, କିନ୍ତୁ ଆପଣଙ୍କ ଚୟନିତ ସମୟକୁ ଗୁରୁତ୍ୱ ଦିଆଯିବ।</string>
+
+    <string name="title_irrigation_pump">ଜଳସେଚନ ପମ୍ପ</string>
+    <string name="status_currently_running">ବର୍ତ୍ତମାନ ଚାଲୁଅଛି</string>
+    <string name="status_currently_off">ବର୍ତ୍ତମାନ ବନ୍ଦ ଅଛି</string>
+
+    <string name="label_flow_rate">ପ୍ରବାହ ହାର</string>
+    <string name="placeholder_flow_rate">10 ଲି/ମିନିଟ୍</string>
+
+    <string name="label_duration">ଅବଧି</string>
+    <string name="placeholder_timer">00:00</string>
+
+    <string name="btn_turn_off_pump">ପମ୍ପ ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="btn_turn_on_pump">ପମ୍ପ ଚାଲୁ କରନ୍ତୁ</string>
+
+    <string name="placeholder_percentage">--%</string>
+
+</resources>

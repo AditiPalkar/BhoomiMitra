@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಭೂಮಿ ಮಿತ್ರ</string>
+    <string name="hello">ನಮಸ್ಕಾರ</string>
+    <string name="profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="about">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="reset_data">ಡೇಟಾ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="change_language">ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+
+    <string name="crop_diary_and_expenses">ಬೆಳೆ ದಿನಚರಿ ಮತ್ತು ವೆಚ್ಚಗಳು</string>
+    <string name="track_farm_activities">ನಿಮ್ಮ ಕೃಷಿ ಚಟುವಟಿಕೆಗಳು ಮತ್ತು ಖರ್ಚುಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ</string>
+    <string name="diary">ದಿನಚರಿ</string>
+    <string name="expenses">ವೆಚ್ಚಗಳು</string>
+    <string name="today_entries">ಇಂದಿನ ನಮೂದುಗಳು: %1$d</string>
+    <string name="total_this_month">ಈ ತಿಂಗಳ ಮೊತ್ತ: ₹%1$d</string>
+    <string name="add_entry">ನಮೂದನ್ನು ಸೇರಿಸಿ</string>
+
+    <string name="add_diary_entry">ದಿನಚರಿ ನಮೂದನ್ನು ಸೇರಿಸಿ</string>
+    <string name="date">ದಿನಾಂಕ</string>
+    <string name="select_date">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="crop">ಬೆಳೆ</string>
+    <string name="crop_example">ಉದಾ: ಟೊಮೆಟೊ</string>
+    <string name="activity_done">ಮಾಡಿದ ಕೆಲಸ</string>
+    <string name="activity_example">ಉದಾ: ನೀರಾವರಿ, ಕೀಟನಾಶಕ ಸಿಂಪಡಣೆ</string>
+    <string name="notes_optional">ಟಿಪ್ಪಣಿಗಳು / ಸಮಸ್ಯೆಗಳು (ಐಚ್ಛಿಕ)</string>
+    <string name="extra_observations">ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ಅವಲೋಕನಗಳು</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="save">ಉಳಿಸಿ</string>
+
+    <string name="add_expense">ವೆಚ್ಚವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="crop_optional">ಬೆಳೆ (ಐಚ್ಛಿಕ)</string>
+    <string name="expense_crop_example">ಉದಾ: ಟೊಮೆಟೊ / ಸಾಮಾನ್ಯ</string>
+    <string name="category">ವರ್ಗ</string>
+    <string name="amount">ಮೊತ್ತ (₹)</string>
+    <string name="amount_example">ಉದಾ: 1200</string>
+    <string name="notes">ಟಿಪ್ಪಣಿಗಳು (ಐಚ್ಛಿಕ)</string>
+    <string name="expense_notes_example">ಉದಾ: ಯೂರಿಯಾ 50 ಕೆಜಿ, ಕೂಲಿ</string>
+
+    <string name="ai_crop_disease">AI ಬೆಳೆ ರೋಗ ಪತ್ತೆ</string>
+    <string name="instant_diagnosis">ಚಿಕಿತ್ಸಾ ಶಿಫಾರಸುಗಳೊಂದಿಗೆ ತ್ವರಿತ ರೋಗನಿರ್ಣಯವನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="upload_crop_image">ಬೆಳೆಯ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="upload_instruction">ಫೋಟೋ ತೆಗೆಯಿರಿ ಅಥವಾ ಗ್ಯಾಲರಿಯಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="take_photo">ಫೋಟೋ ತೆಗೆಯಿರಿ</string>
+    <string name="upload_gallery">ಗ್ಯಾಲರಿಯಿಂದ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="how_it_works">ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ</string>
+    <string name="step_one">ಪೀಡಿತ ಬೆಳೆ ಪ್ರದೇಶದ ಸ್ಪಷ್ಟ ಫೋಟೋ ತೆಗೆದುಕೊಳ್ಳಿ</string>
+    <string name="step_two">ನಮ್ಮ AI ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಚಿತ್ರವನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ</string>
+    <string name="step_three">ಚಿಕಿತ್ಸಾ ಯೋಜನೆಗಳೊಂದಿಗೆ ತ್ವರಿತ ಪರಿಹಾರ ಪಡೆಯಿರಿ</string>
+
+    <string name="irrigation_control">ನೀರಾವರಿ ನಿಯಂತ್ರಣ</string>
+    <string name="smart_water_management">ನಿಮ್ಮ ಜಮೀನಿಗೆ ಸ್ಮಾರ್ಟ್ ನೀರು ನಿರ್ವಹಣೆ</string>
+    <string name="control_mode">ಕಂಟ್ರೋಲ್ ಮೋಡ್</string>
+    <string name="ai_scheduling">AI-ಚಾಲಿತ ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="auto_mode">ಆಟೋ ಮೋಡ್</string>
+    <string name="manual_mode">ಮ್ಯಾನುಯಲ್ ಮೋಡ್</string>
+    <string name="irrigation_pump">ನೀರಾವರಿ ಪಂಪ್</string>
+    <string name="currently_running">ಪ್ರಸ್ತುತ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+    <string name="flow_rate">ಹರಿವಿನ ದರ</string>
+    <string name="duration">ಅವಧಿ</string>
+    <string name="auto_mode_active">ಆಟೋ ಮೋಡ್ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="soil_moisture">ಮಣ್ಣಿನ ತೇವಾಂಶ ಮಟ್ಟಗಳು</string>
+    <string name="whole_field_moisture">ಇಡೀ ಕ್ಷೇತ್ರದ ತೇವಾಂಶ</string>
+    <string name="optimal">ಸೂಕ್ತ</string>
+    <string name="water_usage">ನೀರಿನ ಬಳಕೆ (ಕಳೆದ 7 ದಿನಗಳು)</string>
+    <string name="today">ಇಂದು</string>
+    <string name="weekly">ಸಾಪ್ತಾಹಿಕ</string>
+    <string name="avg_day">ಸರಾಸರಿ/ದಿನ</string>
+    <string name="next_scheduled_irrigation">ಮುಂದಿನ ನಿಗದಿತ ನೀರಾವರಿ</string>
+    <string name="whole_field_auto">ಸಂಪೂರ್ಣ ಕ್ಷೇತ್ರ - ಆಟೋ ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="today_6pm">--:--</string>
+    <string name="duration_minutes">ಅವಧಿ: 30 ನಿಮಿಷಗಳು</string>
+
+    <string name="mandi_market_prices">ಮಂಡಿ ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳು</string>
+    <string name="live_prices">ಸ್ಥಳೀಯ ಮಂಡಿಗಳಿಂದ ಲೈವ್ ಬೆಲೆಗಳು</string>
+    <string name="filter_state">ರಾಜ್ಯದ ಮೂಲಕ ಫಿಲ್ಟರ್ ಮಾಡಿ</string>
+    <string name="last_updated">ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="price_trend">----:----</string>
+    <string name="min">ಕನಿಷ್ಠ</string>
+    <string name="current">ಪ್ರಸ್ತುತ</string>
+    <string name="max">ಗರಿಷ್ಠ</string>
+    <string name="market_insight">ಮಾರುಕಟ್ಟೆ ಒಳನೋಟ</string>
+    <string name="best_selling_time">ಮಾರಾಟ ಮಾಡಲು ಉತ್ತಮ ಸಮಯ</string>
+    <string name="next_days">ಮುಂದಿನ 2-3 ದಿನಗಳು</string>
+    <string name="todays_mandi_rates">ಇಂದಿನ ಮಂಡಿ ದರಗಳು</string>
+    <string name="search_item">ವಸ್ತುವನ್ನು ಹುಡುಕಿ (ಉದಾ. ಗೋಧಿ)</string>
+    <string name="view_more">ಇನ್ನಷ್ಟು ವೀಕ್ಷಿಸಿ</string>
+    <string name="nearby_mandis">ಹತ್ತಿರದ ಮಂಡಿಗಳು (ಟಾಪ್ 5)</string>
+
+    <string name="offline_library">ಆಫ್‌ಲೈನ್ ಲೈಬ್ರರಿ</string>
+    <string name="offline_desc">ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆ ಕಲಿಕೆಯ ವಿಷಯವನ್ನು ಬಳಸಿ</string>
+    <string name="offline_videos">ಆಫ್‌ಲೈನ್ ವೀಡಿಯೊಗಳು</string>
+    <string name="offline_videos_desc">ಬೆಳೆ ಆರೈಕೆ ಮತ್ತು ನೀರಾವರಿ ಕುರಿತ ವೀಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="pdf_guides">ಪಿಡಿಎಫ್ ಮಾರ್ಗದರ್ಶಿಗಳು</string>
+    <string name="pdf_guides_desc">ಬೆಳೆ ಕೈಪಿಡಿಗಳು ಮತ್ತು ಸರ್ಕಾರಿ ಯೋಜನೆಗಳ ಪಿಡಿಎಫ್‌ ವೀಕ್ಷಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+
+    <string name="government_schemes">ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು</string>
+    <string name="scheme_subtitle">ಪ್ರಯೋಜನಗಳನ್ನು ಅನ್ವೇಷಿಸಿ ಮತ್ತು ರೈತ ಕಲ್ಯಾಣ ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ</string>
+    <string name="available_schemes">ಲಭ್ಯವಿರುವ ಯೋಜನೆಗಳು</string>
+    <string name="search_schemes">ಯೋಜನೆಗಳನ್ನು ಹುಡುಕಿ (ಉದಾ., ಪಿಎಂ-ಕಿಸಾನ್)</string>
+    <string name="all">ಎಲ್ಲಾ</string>
+    <string name="central">ಕೇಂದ್ರ</string>
+    <string name="state">ರಾಜ್ಯ</string>
+    <string name="need_help">ಸಹಾಯ ಬೇಕೇ?</string>
+    <string name="help_desc">ನಮ್ಮ ಬೆಂಬಲ ತಂಡವನ್ನು ಸಂಪರ್ಕಿಸಿ ಅಥವಾ ಹತ್ತಿರದ ಕೃಷಿ ಕಚೇರಿಗೆ ಭೇಟಿ ನೀಡಿ.</string>
+    <string name="helpline">ಸಹಾಯವಾಣಿ</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="important_notice">ಪ್ರಮುಖ ಸೂಚನೆ</string>
+    <string name="important_notice_desc">ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಬಳಿ ಎಲ್ಲಾ ಅಗತ್ಯ ದಾಖಲೆಗಳು (ಆಧಾರ್, ಭೂ ದಾಖಲೆಗಳು, ಬ್ಯಾಂಕ್ ವಿವರಗಳು) ಇವೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+
+    <string name="voice_assistant">ಧ್ವನಿ ಸಹಾಯಕ</string>
+    <string name="ask_anything">ಕೃಷಿಯ ಬಗ್ಗೆ ನನ್ನನ್ನು ಏನಾದರೂ ಕೇಳಿ</string>
+    <string name="tap_to_speak">ಮಾತನಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="voice_help">ನಾನು ಕೃಷಿ ಪ್ರಶ್ನೆಗಳಿಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೆ</string>
+    <string name="use_comfortable_language">ನಿಮಗೆ ಅನುಕೂಲಕರವಾದ ಭಾಷೆಯನ್ನು ಬಳಸಿ</string>
+    <string name="try_asking">ಹೀಗೆ ಕೇಳಲು ಪ್ರಯತ್ನಿಸಿ...</string>
+    <string name="pill_weather">ಈ ವಾರದ ಹವಾಮಾನ ಮುನ್ಸೂಚನೆ ಏನು?</string>
+    <string name="pill_pests">ನನ್ನ ಟೊಮೆಟೊ ಗಿಡಗಳಲ್ಲಿ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಹೇಗೆ?</string>
+    <string name="pill_mandi">ಇಂದಿನ ಮಂಡಿ ಬೆಲೆಗಳನ್ನು ನನಗೆ ತೋರಿಸಿ</string>
+    <string name="pill_irrigation">ನಾನು ಯಾವಾಗ ನನ್ನ ಬೆಳೆಗೆ ನೀರು ಹರಿಸಬೇಕು?</string>
+    <string name="pill_schemes">ಯಾವ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು ಲಭ್ಯವಿವೆ?</string>
+    <string name="pill_expense">ಬೆಳೆ ದಿನಚರಿಯಲ್ಲಿ ಗೊಬ್ಬರದ ವೆಚ್ಚವನ್ನು ಸೇರಿಸಿ</string>
+
+
+    <string name="register_title">ಖಾತೆ ತೆರೆಯಿರಿ</string>
+    <string name="register_subtitle">ಭೂಮಿ ಮಿತ್ರ ಸಮುದಾಯಕ್ಕೆ ಸೇರಿ</string>
+    <string name="hint_full_name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="hint_email">ಇಮೇಲ್ ವಿಳಾಸ</string>
+    <string name="hint_password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="hint_confirm_password">ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="hint_select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="btn_sign_up">ಸೈನ್ ಅಪ್</string>
+    <string name="text_already_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? </string>
+    <string name="btn_login_text">ಲಾಗಿನ್</string>
+
+    <string name="title_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="label_name">ಹೆಸರು</string>
+    <string name="label_email">ಇಮೇಲ್</string>
+    <string name="placeholder_name">ರೈತರ ಹೆಸರು</string>
+    <string name="placeholder_email">example@mail.com</string>
+    <string name="action_change_language">ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="action_reset_data">ಡೇಟಾ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="action_about">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="action_logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="login_title">ಮತ್ತೆ ಸ್ವಾಗತ</string>
+    <string name="login_subtitle">ಮುಂದುವರಿಯಲು ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="action_forgot_password">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರಾ?</string>
+    <string name="text_no_account">ಖಾತೆ ಇಲ್ಲವೇ? </string>
+    <string name="action_register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="btn_login">ಲಾಗಿನ್</string>
+
+    <string name="nav_home">ಮುಖಪುಟ</string>
+    <string name="nav_disease">ರೋಗ</string>
+    <string name="nav_voice">ಧ್ವನಿ</string>
+    <string name="nav_irrigation">ನೀರಾವರಿ</string>
+    <string name="nav_market">ಮಾರುಕಟ್ಟೆ</string>
+    <string name="chat_title">ಸಮುದಾಯ ಚಾಟ್</string>
+    <string name="chat_subtitle">ಅನುಮಾನಗಳನ್ನು ಕೇಳಿ, ಇತರ ರೈತರೊಂದಿಗೆ ಸಲಹೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="hint_type_message">ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಟೈಪ್ ಮಾಡಿ...</string>
+    <string name="btn_send">ಕಳುಹಿಸಿ</string>
+
+    <string name="market_last_updated_time">--:--</string>
+    <string name="market_price_25">-:-</string>
+    <string name="market_price_35">-:-</string>
+    <string name="market_insight_text">ಒಳನೋಟ...</string>
+    <string name="irrigation_val_180">180 ಲೀ/ನಿಮಿಷ</string>
+    <string name="irrigation_val_24m">24 ನಿಮಿಷಗಳು</string>
+    <string name="irrigation_val_68">68%</string>
+    <string name="irrigation_val_trend">↘ -12%</string>
+    <string name="irrigation_val_470">470 ಲೀ</string>
+    <string name="irrigation_val_32k">3.2 ಕಿ.ಲೀ</string>
+    <string name="irrigation_val_467">467 ಲೀ</string>
+    <string name="num_1">1</string>
+    <string name="num_2">2</string>
+    <string name="num_3">3</string>
+
+    <string name="text_remember_me">ನನ್ನನ್ನು ನೆನಪಿಡಿ</string>
+    <string name="text_new_user">ಭೂಮಿ ಮಿತ್ರಗೆ ಹೊಸಬರೇ? </string>
+
+    <string name="summary_diary_placeholder">ಇಂದಿನ ನಮೂದುಗಳು: 0</string>
+    <string name="summary_expense_placeholder">ಈ ತಿಂಗಳ ಮೊತ್ತ: ₹0</string>
+
+    <string name="scheme_help_phone">1800-180-1551</string>
+    <string name="scheme_help_email">support@agri.gov</string>
+
+    <string name="farm_status_msg">ನಿಮ್ಮ ಜಮೀನು ಇಂದು ಉತ್ತಮವಾಗಿದೆ! 🌱</string>
+    <string name="weather_condition_example">ಭಾಗಶಃ ಮೋಡ</string>
+    <string name="temp_example">28°C</string>
+    <string name="feels_like_example">30°C ರಂತೆ ಭಾಸವಾಗುತ್ತಿದೆ</string>
+    <string name="last_updated_placeholder">ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ: --:--</string>
+    <string name="label_humidity">ಆರ್ದ್ರತೆ</string>
+    <string name="val_humidity">65%</string>
+    <string name="label_wind">ಗಾಳಿ</string>
+    <string name="val_wind">12 ಕಿ.ಮೀ/ಗಂಟೆ</string>
+    <string name="label_soil_moisture">ಮಣ್ಣಿನ ತೇವಾಂಶ</string>
+    <string name="val_soil_moisture">72%</string>
+    <string name="label_optimal">ಸೂಕ್ತ ಮಟ್ಟ</string>
+    <string name="label_irrigation">ನೀರಾವರಿ</string>
+    <string name="label_active">ಸಕ್ರಿಯ</string>
+    <string name="label_auto_mode_on">ಆಟೋ ಮೋಡ್ ಆನ್</string>
+    <string name="dash_detect_sub">AI-ಚಾಲಿತ ತ್ವರಿತ ರೋಗನಿರ್ಣಯ</string>
+    <string name="label_quick_access">ತ್ವರಿತ ಪ್ರವೇಶ</string>
+    <string name="label_community">ಸಮುದಾಯ</string>
+    <string name="label_schemes">ಯೋಜನೆಗಳು</string>
+    <string name="offline_tap_hint">⬇ ನಿಮ್ಮ ಉಳಿಸಿದ ವಿಷಯವನ್ನು ತೆರೆಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+
+    <string name="control_mode_label">ನಿಯಂತ್ರಣ ಮೋಡ್</string>
+    <string name="status_manual_active">ಹಸ್ತಚಾಲಿತ ನಿಯಂತ್ರಣ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+
+    <string name="label_soil_type">ಮಣ್ಣಿನ ವಿಧ</string>
+    <string name="hint_select_soil">ಮಣ್ಣಿನ ವಿಧವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="label_crop_sowed">ಬಿತ್ತನೆ ಮಾಡಿದ ಬೆಳೆ</string>
+    <string name="hint_select_crop">ಬೆಳೆ ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="label_start_time">ದೈನಂದಿನ ನೀರಾವರಿ ಆರಂಭ ಸಮಯ</string>
+    <string name="hint_select_time">ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="ai_adjustment_note">ಸಿಸ್ಟಮ್ AI ಅನ್ನು ಬಳಸಿಕೊಂಡು ನೀರಿನ ಅವಧಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸುತ್ತದೆ, ಆದರೆ ಬಳಕೆದಾರರು ಆಯ್ಕೆ ಮಾಡಿದ ಸಮಯವನ್ನು ಗೌರವಿಸಲಾಗುತ್ತದೆ.</string>
+
+    <string name="title_irrigation_pump">ನೀರಾವರಿ ಪಂಪ್</string>
+    <string name="status_currently_running">ಪ್ರಸ್ತುತ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+    <string name="status_currently_off">ಪ್ರಸ್ತುತ ಬಂದ್ ಆಗಿದೆ</string>
+
+    <string name="label_flow_rate">ಹರಿವಿನ ದರ</string>
+    <string name="placeholder_flow_rate">10 ಲೀ/ನಿಮಿಷ</string>
+
+    <string name="label_duration">ಅವಧಿ</string>
+    <string name="placeholder_timer">00:00</string>
+
+    <string name="btn_turn_off_pump">ಪಂಪ್ ಆಫ್ ಮಾಡಿ</string>
+    <string name="btn_turn_on_pump">ಪಂಪ್ ಆನ್ ಮಾಡಿ</string>
+
+    <string name="placeholder_percentage">--%</string>
+
+</resources>
