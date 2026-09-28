@@ -38,7 +38,7 @@ import java.util.Locale;
 
 public class VoiceAssistant extends Fragment {
 
-    private static final String CEREBRAS_API_KEY = "csk-mhmfjmt39632865d9ph4325w4dvv2hhwwepffwwew2jjpnx4";
+    private static final String CEREBRAS_API_KEY = ""
 
     // UI Variables
     private TextView stateTitle, stateSubtitle, selectedLanguageText;
