@@ -55,9 +55,9 @@ import java.util.Locale;
 public class Market extends Fragment {
 
     // --- Configuration ---
-    private static final String API_KEY = "579b464db66ec23bdd000001dd90cd941e9445b9664465726100f728";
+    private static final String API_KEY = "";
     // Base URL without filters
-    private static final String BASE_URL = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=" + API_KEY + "&format=json";
+    private static final String BASE_URL = "" + API_KEY + "&format=json";
 
     // --- Views ---
     private TextView tvLastUpdated, tvTrendTitle, tvMin, tvCurrent, tvMax;
